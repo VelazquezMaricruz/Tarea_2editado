@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>DIC cafe</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="sub_header">
+
+    <!-- Navegación global -->
+    <nav class="header_nav">
+        <a class="logo" href="index.html">
+            <img src="./image/sample_logo_k.png" alt="logo">
+        </a>
+        <ul class="global_nav">
+            <a class="global_nav_item" href="index.html">
+                <li>Home</li>
+            </a>
+            <a class="global_nav_item" href="#menu">
+                <li>Menu</li>
+            </a>
+            <a class="global_nav_item" href="contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <h1>DIC Coffee</h1>
+
+
+<section class="section_inner">
+    <div class="section_title">
+        <h1>CONTACT</h1>
+        <p>Contáctanos</p>
+    </div>
+    <form action="#" method="POST">
+        <table class="contact">
+            <tr class="contact_line">
+                <td class="contact_sign"><label for="name">su nombre</label></td>
+                <td class="contact_input"><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr class="contact_line">
+                <td class="contact_sign"><label for="phonenumber">Datos de contacto</label></td>
+                <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+            </tr>
+            <tr class="contact_line">
+                <td class="contact_sign"><label for="region">Región de residencia</label></td>
+                <td>
+                    <select id="region">
+                        <option value="0">Por favor, seleccione.</option>
+                        <option value="1">Hokkaido</option>
+                        <option value="2">Tohoku (las seis prefecturas más septentrionales de Honshu)</option>
+                        <option value="3">Kantou (mitad oriental de Japón, incluido Tokio)</option>
+                        <option value="4">centro</option>
+                        <option value="5">Kinki (región alrededor de Osaka, Kioto y Nara)</option>
+                        <option value="6">Chugoku y Shikoku</option>
+                        <option value="7">Kyushu (la más meridional de las cuatro islas principales de Japón)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="contact_content">
+                <td class="contact_sign"><label for="content">Contenido</label></td>
+                <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+            </tr>
+        </table>
+        <div class="contact_btn_area">
+            <button type="reset" class="contact_btn reset_btn">Reset</button>
+            <button type="submit" class="contact_btn submit_btn">Enviar</button>
+        </div>
+    </form>
+</section>
+
+<footer class="footer">
+    <nav>
+        <!-- navegación -->
+        <ul class="footer_nav">
+            <a class="footer_nav_item" href="index.html">
+                <li>Home</li>
+            </a>
+            <a class="footer_nav_item" href="#menu">
+                <li>Menu</li>
+            </a>
+            <a class="footer_nav_item" href="contact.html">
+                <li>Contact</li>
+            </a>
+            <a href="index.html">
+                <img class="footer_logo" src="./image/sample_logo_w.png" alt="logo">
+            </a>
+        </ul>
+        <p class="footer_right">© DIVIC Corp. All RIGHTS RESERVED.</p>
+    </nav>
+</footer>
+
+</body>
+
+</html>

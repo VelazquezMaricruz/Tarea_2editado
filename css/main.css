@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+li {
+    box-sizing: border-box;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.section_title {
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../image/sample_key.jpg");
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
+}
+
+.key h1 {
+    font-size: 2.5rem;
+}
+
+/* NAV SECTION */
+.menu_title {
+    display: inline-block;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: 1px solid #42210b;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.coffee_menu_image {
+    width: 20%;
+    border-radius: 50%; 
+}
+
+.header_nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.global_nav {
+    display: flex;
+    align-items: stretch;
+}
+
+.global_nav_item {
+color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+}
+
+/* CONCEPT SECTION */
+
+.concept_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept_content {
+    width: 60%;
+    text-align: justify;
+}
+
+.concept_image {
+    width: 35%;
+}
+
+/* MENU SECTION */
+
+.menu_section {
+    background: url("../image/sample_menu_bg.jpg") no-repeat bottom;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.menu_list_recommended {
+    padding-bottom: 50px;
+}
+
+ .menu_item {
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .4);
+    margin-bottom: 20px;
+ }
+
+ .menu_item_content {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+ }
+
+ .menu_item_title {
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+ }
+
+ .menu_item_price {
+    color: #42210b;
+    font-size: 18px;
+    text-align: right;
+ }
+
+ .menu_item_image {
+    width: 55%;
+    object-fit: cover;
+    height: 300px;
+ }
+
+ .menu_title {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+ }
+
+ .coffee_menu {
+    background: #fff;
+    padding: 20px;
+ }
+
+ .coffee_menu_list_item {
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+ }
+
+ .coffee_menu_content {
+    width: 80%;
+    padding: 10px;
+ }
+
+/* ACCESS SECTION */
+.info {
+    display: flex;
+}
+
+.info_title {
+    width: 80px;
+}
+
+.frame_area {
+    position: relative;
+    width: 100%;
+}
+
+/* FOOTER SECTION */
+.footer {
+    width: 100%;
+    background: #251e19;
+    position: absolute;
+    bottom: -75px;
+    padding-bottom: 10px;
+    height: 75px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer_nav_item {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer_right {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer_logo {
+    width: 80px;
+}
